@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a.e.a.azkar">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/main_app"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <activity
+            android:name=".Main_Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splash_theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Azkar_Main"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AzkaratActivity"
+            android:label="أذكارات"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Azkar_Main" />
+        </activity>
+        <activity
+            android:name=".TextNoti_Activity"
+            android:label="اعدادات التنبيهات النصية"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Azkar_Main" />
+        </activity>
+        <activity
+            android:name=".VoiceNotiActivity"
+            android:label="اعدادات التنبيهات الصوتية"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Azkar_Main" />
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="عن التطبيق"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Azkar_Main" />
+        </activity>
+        <activity
+            android:name=".MorningAzkarActivity"
+            android:label="أذكار الصباح"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AzkaratActivity" />
+        </activity>
+        <activity
+            android:name=".NightAzkarActivity"
+            android:label="أذاكارات المساء"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AzkaratActivity" />
+        </activity>
+        <activity
+            android:name=".MosqueAzkarActivity"
+            android:label="أذاكارات المسجد"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AzkaratActivity" />
+        </activity>
+        <activity
+            android:name=".PrayAzkarActivity"
+            android:label="أذاكارات الصلاة"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AzkaratActivity" />
+        </activity>
+        <activity
+            android:name=".SleepAzkarActivity"
+            android:label="أذاكارات النوم"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AzkaratActivity" />
+        </activity>
+        <activity
+            android:name=".WalkupAzkarActivity"
+            android:label="أذاكارات الأستيقاظ"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AzkaratActivity" />
+        </activity>
+        <activity
+            android:name=".VaritiesAzkarActivity"
+            android:label="أذكارات منوعة"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AzkaratActivity" />
+        </activity>
+
+        <receiver android:name=".AlarmAzkarBroad" android:enabled="true" android:exported="true" android:directBootAware="true"
+            tools:targetApi="n" />
+
+        <receiver android:name=".AlarmAzkarBroadBoot" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".Counter" />
+        <activity android:name=".AzkarCounter" />
+        <activity android:name=".PrayingTimes" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="false"
+            />
+    </application>
+
+</manifest>

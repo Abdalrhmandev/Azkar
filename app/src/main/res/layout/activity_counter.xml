@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@color/primary"
+    app:cardCornerRadius="@dimen/cardtwilve"
+    app:cardElevation="@dimen/cardthree"
+    app:contentPadding="@dimen/cardthree">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_counter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.a.e.a.azkar.Counter"
+        >
+
+        <LinearLayout
+            android:id="@+id/counterBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#212121"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/accent"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/tendp"
+                />
+
+            <TextView
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="وَالذَّاكِرِينَ اللَّهَ كَثِيرًا وَالذَّاكِرَاتِ"
+                android:textColor="@color/accent"
+                android:textSize="25dp"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/accent"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/tendp"
+                android:layout_marginLeft="@dimen/tendp"
+                android:layout_marginRight="@dimen/tendp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/accent"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/counter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/accent"
+                    android:textSize="30dp"
+                    android:layout_weight="3"
+
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/accent"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="50dp"
+                    />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    >
+
+
+                    <ProgressBar
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_gravity="center"
+                        android:id="@+id/progresslenght"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="أختر الذكر ^_^"
+                        android:textColor="@color/accent"
+                        android:textSize="@dimen/twintysp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/progresstext"
+
+                        />
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/accent"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/fadlCounter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="فضل الذكر"
+                android:textColor="@color/accent"
+                android:textSize="20sp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</android.support.v7.widget.CardView>
+

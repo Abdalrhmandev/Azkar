@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_text_noti_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#69f0ae"
+    android:orientation="vertical"
+    tools:context="com.example.a.e.a.azkar.TextNoti_Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ToggleButton
+                        android:id="@+id/zToggleB"
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:background="@drawable/custom_toggle"
+                        android:textOff=""
+                        android:textOn="" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    android:gravity="end|center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ziktextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:text="أَذُكِرَ اللَّهُ "
+                        android:textColor="#000"
+                        android:textSize="@dimen/largeText" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/twodp"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:text=" يَذْكُرُكَ بِذِكْرِ اللَّهِ كُلُّ نُصْفِ سَاعِهِ او اُكْثُرْ بِقَلِيلِ"
+                        android:textColor="#000"
+                        android:textSize="@dimen/smallText" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ToggleButton
+                        android:id="@+id/jToggleB"
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:background="@drawable/custom_toggle"
+                        android:textOff=""
+                        android:textOn="" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    android:gravity="end|center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/jtextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:text="أَذكَارٌ و الصَّلَاَةَ"
+                        android:textColor="#000"
+                        android:textSize="@dimen/largeText"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/jtextView"
+                        android:layout_marginTop="@dimen/twodp"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:text=" يَذْكُرُكَ بأذكار الصَّبَاحَ و صَلَاَة الْفَجْرِ إذاَ لَمْ تَصْلَى "
+                        android:textColor="#000"
+                        android:textSize="@dimen/smallText" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ToggleButton
+                        android:id="@+id/aToggleB"
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:background="@drawable/custom_toggle"
+                        android:textOff=""
+                        android:textOn="" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    android:gravity="end|center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/atextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:text="أَذكَارٌ و الصَّلَاَةَ"
+                        android:textColor="#000"
+                        android:textSize="@dimen/largeText" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/twodp"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:text="يَذْكُرُكَ بأذكار الْمَسَاءَ و صَلَاَة الْعَصْرِ إذاَ لَمْ تَصْلَى "
+                        android:textColor="#000"
+                        android:textSize="@dimen/smallText" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ToggleButton
+                        android:id="@+id/lToggleB"
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:background="@drawable/custom_toggle"
+                        android:textOff=""
+                        android:textOn="" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    android:gravity="end|center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/ltextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:text="مُتَنَوِّعُ"
+                        android:textColor="#000"
+                        android:textSize="@dimen/largeText" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/notivartext"
+                        android:textColor="#000"
+                        android:textSize="@dimen/smallText"
+                        android:layout_marginTop="@dimen/twodp"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

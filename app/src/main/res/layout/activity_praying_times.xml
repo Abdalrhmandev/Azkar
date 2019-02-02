@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/primary"
+    app:cardCornerRadius="@dimen/cardtwilve"
+    app:cardElevation="@dimen/cardthree"
+    app:contentPadding="@dimen/cardthree">
+
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_praying_times"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:context="com.example.a.e.a.azkar.PrayingTimes">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:text="ِ"
+                    android:textColor="#212121"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:id="@+id/selectedGovernerate"/>
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#212121" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/tendp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/timerCounter"
+                        android:text="sddfadfsaf"
+                        android:textSize="30dp"
+                        android:visibility="invisible"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#212121"
+                    android:visibility="invisible"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/tendp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <ToggleButton
+                        android:id="@+id/azan_button"
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:layout_margin="@dimen/fivedp"
+                        android:background="@drawable/custom_toggle"
+                        android:textOff=""
+                        android:textOn=""
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/activateAzanText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="تفعيل الاذان"
+                        android:textSize="@dimen/twintysp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/timerer"/>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#212121" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/governerates"
+                    android:layout_margin="@dimen/tendp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#212121" />
+
+
+                <LinearLayout
+                    android:id="@+id/prayingTimeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtPrayerTimes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="#212121"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/changeLocLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text=" لتغيير مواقيت الصلاة الى موقع بلدك او مدينتك او قريتك : فقط قم بادخال رقم خط الطول و العرض لموقعك او اضغط على النص فى الاسفل لنسخه و ضعه فى فى متصفح للحصول على الارقام "
+                    android:textColor="#212121"
+
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/copyloca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:onClick="CopyLoca"
+                    android:text="خط الطول والعرض ل ....."
+                    android:textColor="#212121"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/latiTudeEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:hint="خط العرض: مثال 30.04" />
+
+
+                    <EditText
+                        android:id="@+id/longitudeEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:hint="خط الطول: مثال 31.23"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/fivedp"
+                        android:layout_weight="1"
+                        android:background="#212121"
+                        android:onClick="SetLongLati"
+                        android:text="تم"
+                        android:textColor="@color/accent"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/fivedp"
+                        android:layout_weight="1"
+                        android:background="#212121"
+                        android:onClick="ShowPrayTimes"
+                        android:text="الغاء"
+                        android:textColor="@color/accent"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+</android.support.v7.widget.CardView>
+
+
+</ScrollView>

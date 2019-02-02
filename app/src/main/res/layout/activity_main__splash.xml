@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    android:onClick="onclick"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        tools:ignore="HardcodedText"
+        >
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:src="@mipmap/img_face"
+            android:onClick="onclick"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            tools:visibility="gone"
+
+            />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:gravity="center"
+            android:alpha="0"
+            android:text="Hello world"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+            android:textColor="@color/blackblack"
+            android:textSize="@dimen/twintyfivesp"
+            tools:alpha="1"
+            android:id="@+id/starttext1"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="8dp"
+            android:alpha="0"
+            android:gravity="center"
+            android:text="This a nice text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
+            android:textSize="@dimen/twintysp"
+            tools:alpha="1"
+            android:id="@+id/starttext2"
+            android:textColor="@color/whitewhite"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/fivedp"
+            android:paddingLeft="@dimen/fivedp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" الْمَسُّ الشَّاشَةَ لِيَبْدَأُ التَّطْبِيقُ"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:textColor="@color/whitewhite"
+            android:onClick="onclick"
+            android:id="@+id/starttext3"
+            android:textSize="@dimen/fiftensp"
+            android:layout_weight="2"
+            android:paddingBottom="50dp"
+            android:layout_marginBottom="25dp"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

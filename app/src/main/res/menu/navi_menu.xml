@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group1"
+        >
+
+        <item
+            android:title="@string/main"
+            android:id="@+id/main_menu"
+            android:icon="@drawable/main"
+
+
+            />
+        <item
+            android:title="@string/azkarat"
+            android:id="@+id/azkarat_menu"
+            android:icon="@drawable/azkar"
+            />
+
+        <item
+            android:title="@string/counter"
+            android:id="@+id/counter_menu"
+            android:icon="@mipmap/counter"
+            />
+
+        <item
+            android:title="@string/praying_times"
+            android:id="@+id/praying_times"
+            android:icon="@mipmap/praying_times"
+            />
+
+
+
+    </group>
+
+    <item android:title="@string/setting"
+        android:id="@+id/setting">
+
+        <menu>
+
+            <item
+                android:title="@string/voicenoti"
+                android:id="@+id/voicenoti"
+                android:icon="@mipmap/voicenoti"
+                />
+
+
+            <item
+                android:title="@string/textnoti"
+                android:id="@+id/textnoti"
+                android:icon="@mipmap/textnoti"
+                />
+
+
+
+
+        </menu>
+
+
+    </item>
+
+    <item
+        android:title="@string/communicate"
+        android:id="@+id/communicate"
+        >
+
+        <menu>
+
+            <item
+                android:title="@string/about"
+                android:id="@+id/about_menu"
+                android:icon="@drawable/about"
+
+                />
+
+            <item
+
+                android:title="@string/share"
+                android:id="@+id/share_menu"
+                android:icon="@drawable/share"
+                />
+
+            <item
+                android:title="@string/idea"
+                android:id="@+id/idea"
+                android:icon="@drawable/send"
+                />
+
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:title="@string/exit"
+        android:id="@+id/exit"
+        >
+
+        <menu>
+
+            <item
+                android:title="@string/closeapp"
+                android:id="@+id/closeapp"
+                android:icon="@mipmap/exit"
+
+                />
+
+        </menu>
+
+
+    </item>
+
+
+
+
+</menu>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_azkarat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.a.e.a.azkar.AzkaratActivity"
+        android:background="@color/primary"
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="@dimen/cardtwilve"
+            app:cardElevation="@dimen/cardthree"
+            app:cardBackgroundColor="@color/primary"
+            >
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/primary"
+
+
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="@dimen/cardtwilve"
+                    app:cardElevation="@dimen/cardthree"
+                    app:contentPadding="@dimen/cardthree"
+                    app:cardBackgroundColor="@color/primary">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/primary"
+                        >
+
+                        <Button
+
+                            android:layout_width="@dimen/askarwidth"
+                            android:layout_height="wrap_content"
+                            android:text="@string/morining"
+                            android:id="@+id/morning"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/askartextSize"
+                            android:background="@drawable/azkar_buttons"
+                            android:shadowColor="#A8A8A8"
+                            android:shadowDx="0"
+                            android:shadowDy="0"
+                            android:shadowRadius="5"
+                            android:layout_margin="@dimen/askarButtonmargin"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:onClick="Move"
+                            />
+
+
+                        <Button
+
+                            android:layout_width="@dimen/askarwidth"
+                            android:layout_height="wrap_content"
+                            android:text="@string/night"
+                            android:id="@+id/night"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/askartextSize"
+                            android:background="@drawable/azkar_buttons"
+                            android:shadowColor="#A8A8A8"
+                            android:shadowDx="0"
+                            android:shadowDy="0"
+                            android:shadowRadius="5"
+                            android:layout_margin="@dimen/askarButtonmargin"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:onClick="Move"
+                            />
+
+                        <Button
+
+                            android:layout_width="@dimen/askarwidth"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mosque"
+                            android:id="@+id/mosque"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/askartextSize"
+                            android:background="@drawable/azkar_buttons"
+                            android:shadowColor="#A8A8A8"
+                            android:shadowDx="0"
+                            android:shadowDy="0"
+                            android:shadowRadius="5"
+                            android:layout_margin="@dimen/askarButtonmargin"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:onClick="Move"
+                            />
+
+                        <Button
+
+                            android:layout_width="@dimen/askarwidth"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pray"
+                            android:id="@+id/pray"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/askartextSize"
+                            android:background="@drawable/azkar_buttons"
+                            android:shadowColor="#A8A8A8"
+                            android:shadowDx="0"
+                            android:shadowDy="0"
+                            android:shadowRadius="5"
+                            android:layout_margin="@dimen/askarButtonmargin"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:onClick="Move"
+                            />
+                        <Button
+
+                            android:layout_width="@dimen/askarwidth"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sleeping"
+                            android:id="@+id/sleep"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/askartextSize"
+                            android:background="@drawable/azkar_buttons"
+                            android:shadowColor="#A8A8A8"
+                            android:shadowDx="0"
+                            android:shadowDy="0"
+                            android:shadowRadius="5"
+                            android:layout_margin="@dimen/askarButtonmargin"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:onClick="Move"
+                            />
+                        <Button
+
+                            android:layout_width="@dimen/askarwidth"
+                            android:layout_height="wrap_content"
+                            android:text="@string/walkUp"
+                            android:id="@+id/walkup"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/askartextSize"
+                            android:background="@drawable/azkar_buttons"
+                            android:shadowColor="#A8A8A8"
+                            android:shadowDx="0"
+                            android:shadowDy="0"
+                            android:shadowRadius="5"
+                            android:layout_margin="@dimen/askarButtonmargin"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:onClick="Move"
+                            />
+
+                        <Button
+
+                            android:layout_width="@dimen/askarwidth"
+                            android:layout_height="wrap_content"
+                            android:text="@string/varities"
+                            android:id="@+id/varities"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/askartextSize"
+                            android:background="@drawable/azkar_buttons"
+                            android:shadowColor="#A8A8A8"
+                            android:shadowDx="0"
+                            android:shadowDy="0"
+                            android:shadowRadius="5"
+                            android:layout_margin="@dimen/askarButtonmargin"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:onClick="Move"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </ScrollView>
+
+
+        </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+
+

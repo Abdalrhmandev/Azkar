@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/fivedp"
+    app:cardCornerRadius="@dimen/cardtwilve"
+    app:cardElevation="@dimen/cardthree"
+    app:contentPadding="@dimen/cardthree"
+    android:id="@+id/cardview"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdfsfsfsdas"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/textzikr"
+            android:textSize="@dimen/custrowTextsizezikr"
+            android:paddingBottom="@dimen/cardtwilve"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/primary"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdfsdsasdf"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:textSize="@dimen/custrowTextsize"
+            android:id="@+id/textfadl"
+            android:paddingTop="@dimen/cardtwilve"
+            android:paddingBottom="@dimen/tendp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/primary"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdfsdsasdf"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/custrowTextsize"
+            android:id="@+id/textrepeat"
+            android:paddingTop="@dimen/cardtwilve"
+            android:paddingBottom="@dimen/tendp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

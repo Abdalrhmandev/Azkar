@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_morning_azkar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a.e.a.azkar.MorningAzkarActivity"
+    android:background="@color/primary">
+
+    <include layout="@layout/navi_bar"
+        android:id="@+id/navi_bar"
+        android:paddingBottom="@dimen/tendp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="وقت اذكار الصباح"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/askartextSize"
+        android:layout_marginTop="@dimen/tendp"
+        android:layout_marginBottom="@dimen/tendp"
+        android:background="@color/textBackground"
+        android:textColor="@color/divider"
+        android:padding="@dimen/tendp"
+        />
+
+
+
+        <android.support.v7.widget.RecyclerView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerView"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+
+</LinearLayout>

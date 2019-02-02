@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.a.e.a.azkar.VoiceNotiActivity"
+    android:background="#69f0ae"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/nToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الصلاه عَلَى النبى "
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/ntextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="يَذْكُرُكَ بالصلاه عَلَى النبى كُلَّ سَاعِهِ"
+                        android:textSize="@dimen/smallText"
+                        android:layout_below="@+id/ntextView"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/rToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="اللَّهُمُّ انى اسئلك عِلْمَا نَافِعًا..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/rtextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه السابعه و النُّصْفَ صَباحًا "
+                        android:textSize="@dimen/smallText"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/sToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="اللَّهُمُّ عافنى فى بِدُنًى..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/stextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه الثامنه و النُّصْفَ صَباحًا "
+                        android:textSize="@dimen/smallText"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/hToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="يا حى يا قَيُّومِ بِرحمتِكَ اُسْتُغِيثَ..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/htextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه التاسعه و النُّصْفَ صَباحًا "
+                        android:layout_alignParentRight="true"
+                        android:textSize="@dimen/smallText"
+                        android:layout_below="@+id/htextView"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/wToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="بِسْم اللَّه الذى لَا يَضُرُّ مَعَ اِسْمِهِ شئ..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/wtextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه العاشره و النُّصْفَ صَباحًا "
+                        android:textSize="@dimen/smallText"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/oToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حسبى اللَّهَ لَا إلَهُ إلا هُوَ عَلَيهِ تَوَكَّلْتِ..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/otextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه الحاديه عُشُرٌ و النُّصْفَ صَباحًا "
+                        android:textSize="@dimen/smallText"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/fToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" أَسَتَغْفِرُ اللَّهُ و أُتُوب الِيهُ..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/ftextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  مَوْعِدُ الذَّكَرِ: الساعه الثالثه و النُّصْفَ عَصْرًا "
+                        android:textSize="@dimen/smallText"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/eToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="رُضِيَتْ بَالُهُ رَبًّا و بالاسلإم دَيْنًا..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/etextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه السابعه و النُّصْفَ مَسَاءًا"
+                        android:textSize="@dimen/smallText"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/gToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="لَا اُلْهُ الَا اللَّه وَحِدَهُ لَا شَرِيكٌ لَهُ..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/gtextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه الثامنه و النُّصْفَ مَسَاءًا"
+                        android:textSize="@dimen/smallText"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/tToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" سُبْحَانَ اللَّه و بِحَمْدِهِ..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/ttextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه التاسعه و النُّصْفَ مَسَاءًا "
+                        android:layout_alignParentRight="true"
+                        android:textSize="@dimen/smallText"
+                        android:layout_below="@+id/ttextView"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/cToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="أَعَوْذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/ctextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه العاشره و النُّصْفَ مَسَاءًا "
+                        android:textSize="@dimen/smallText"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="start|center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/tendp"
+                    >
+
+                    <ToggleButton
+                        android:layout_width="@dimen/togglewidth"
+                        android:layout_height="@dimen/toggleheight"
+                        android:id="@+id/yToggleB"
+                        android:textOff=""
+                        android:textOn=""
+                        android:background="@drawable/custom_toggle"
+                        android:layout_margin="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:layout_margin="@dimen/fivedp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" اللَّهُمُّ أَنْتَ رُبَىٌ لَا إلَهُ الًا اُنْتُ..."
+                        android:textSize="@dimen/largeText"
+                        android:id="@+id/ytextView"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        android:layout_marginTop="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginBottom="@dimen/twodp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مَوْعِدُ الذَّكَرِ: الساعه الحاديه عُشُرٌ و النُّصْفَ مَسَاءًا "
+                        android:textSize="@dimen/smallText"
+                        android:textColor="#000"
+                        android:layout_marginBottom="@dimen/fivedp"
+                        android:layout_marginRight="@dimen/fivedp"
+                        android:layout_marginLeft="@dimen/fivedp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/primary"
+
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

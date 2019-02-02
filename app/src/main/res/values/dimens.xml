@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navi_header_height">150dp</dimen>
+    <dimen name="headerTextPadding">10dp</dimen>
+
+
+    <dimen name="askartextSize">25sp</dimen>
+    <dimen name="askarButtonmargin">10dp</dimen>
+    <dimen name="askarwidth">300dp</dimen>
+    <dimen name="askartexftSize">20sp</dimen>
+    <dimen name="custrowTextsize">15sp</dimen>
+    <dimen name="custrowTextsizezikr">20sp</dimen>
+
+    <!--ToggleButtons.-->
+
+    <dimen name="largeText">20sp</dimen>
+    <dimen name="smallText">15sp</dimen>
+    <dimen name="togglewidth">65dp</dimen>
+    <dimen name="toggleheight">30dp</dimen>
+
+
+    <!--Random.-->
+
+    <dimen name="fivedp">5dp</dimen>
+    <dimen name="tendp">10dp</dimen>
+    <dimen name="twintydp">20dp</dimen>
+    <dimen name="thirtydp">30dp</dimen>
+
+    <dimen name="fivesp">5sp</dimen>
+    <dimen name="tensp">10sp</dimen>
+    <dimen name="fiftensp">15sp</dimen>
+    <dimen name="twintysp">20sp</dimen>
+    <dimen name="twintyfivesp">25sp</dimen>
+    <dimen name="thirtysp">30sp</dimen>
+    <dimen name="thirtyfivesp">35sp</dimen>
+
+    <dimen name="twodp">2dp</dimen>
+
+
+    <!--card.-->
+
+    <dimen name="cardtwilve">12dp</dimen>
+    <dimen name="cardthree">3dp</dimen>
+
+
+</resources>
